@@ -4,11 +4,13 @@
 
 Based on the data provided with a JSON structure of people, countries, studies, gender and blood group:
 
-```json
+```
 webservice_data={
   people: [{uid: '1',name: 'Andrés',surname1: 'Gómez',age: 10,height: 180,weight:75},
            {uid: '2',name: 'María',surname1: 'Martínez',age: 40,height: 165,weight: 55},
-           {uid: '3',name: 'Juan',surname1: 'Palacios',age: 85,height: 160,weight: 70},			   {uid: '4',name: 'Marta',surname1: 'Domingo',age: 25,height: 180,weight: 70},	  			 {uid: '5',name: 'Fausta',surname1: 'Sanz',age: 55,height: 155,weight: 45}],
+           {uid: '3',name: 'Juan',surname1: 'Palacios',age: 85,height: 160,weight: 70},
+           {uid: '4',name: 'Marta',surname1: 'Domingo',age: 25,height: 180,weight: 70},	
+           {uid: '5',name: 'Fausta',surname1: 'Sanz',age: 55,height: 155,weight: 45}],
     
   countries: [{id: '1',countryName: 'España',region: 'Europa'},
               {id: '2',countryName: 'Francia',region: 'Europa'},
@@ -27,7 +29,7 @@ webservice_data={
 1. Assemble a JSON structure with the necessary relationships between these elements.
 2. Paint a table like the one below.
 
-<img src="C:\Users\carlo\AppData\Roaming\Typora\typora-user-images\image-20210113163025565.png" alt="image-20210113163025565" style="zoom: 80%;" />
+<img src="https://user-images.githubusercontent.com/49984008/104476894-03754c00-55c1-11eb-9fcd-42065b8ea79d.png" alt="image" style="zoom:80%;" />
 
 #### Exercise 2
 
@@ -39,7 +41,7 @@ Based on the data from exercise
 
 ***To perform the calculations we may have to insert values in JSON structure to be able to calculate local UTC times***
 
-<img src="C:\Users\carlo\AppData\Roaming\Typora\typora-user-images\image-20210113163931894.png" alt="image-20210113163931894" style="zoom:80%;" />
+<img src="https://user-images.githubusercontent.com/49984008/104477257-2bfd4600-55c1-11eb-83cd-249a44f3a99b.png" alt="image" style="zoom:80%;" />
 
 #### Exercise 3
 
